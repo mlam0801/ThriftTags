@@ -1,0 +1,164 @@
+.home-map-container {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.filter-panel {
+    width: 200px;
+    padding: 1rem;
+    background: #f0f4f8;
+    border-right: 1px solid #ccc;
+    height: 100%;
+    text-align: left;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #4a5568;
+}
+
+/* City Title */
+.city-title h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 5px;
+}
+
+.city-title p {
+    font-size: 20px;
+    color: #4a5568;
+}
+
+.map-container {
+    flex: 1;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.google-map {
+    width: 100%;
+    height: 100%;
+}
+
+.location-info {
+    text-align: left;
+    max-width: 300px;
+}
+
+.location-info h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2d3748;
+}
+
+.location-info p {
+    font-size: 16px;
+    color: #4a5568;
+}
+
+.location-image {
+    width: 100%;
+    height: 150px;
+    background: #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.image-placeholder {
+    font-size: 24px;
+    color: #718096;
+}
+
+/* Review section */
+.reviews-section {
+    text-align: left;
+    max-width: 300px;
+}
+
+.reviews-section h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2d3748;
+}
+
+.reviews-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.reviews-section li {
+    font-size: 16px;
+    color: #4a5568;
+    margin-bottom: 10px;
+}
+
+.reviews-section li span {
+    font-weight: bold;
+    color: #2d3748;
+}
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filter-panel {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+    }
+
+    .map-container {
+        width: 100%;
+    }
+
+    .google-map {
+        width: 100%;
+        height: 400px;
+    }
+
+    .location-info, .reviews-section {
+        text-align: center;
+    }
+}
