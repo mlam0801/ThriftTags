@@ -1,3 +1,17 @@
+
+# ThriftTags
+
+**ThriftTags* is a web app that helps users discover, review, and share events for thrift store locations — all visualized on an interactive, geocoded Google Map.
+
+Whether you're hunting for vintage treasures or organizing a community swap meet, ThriftTags brings thrifting culture to your fingertips.
+
+## Features
+
+- View thrift stores pinned on a real-time interactive map using the Google Maps API
+- Submit reviews for individual thrift store locations
+- Create and browse events (e.g. sales, pop-ups, swap meets)
+- Geocoded locations with custom markers
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
