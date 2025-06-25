@@ -1,7 +1,7 @@
 
 # ThriftTags
 
-**ThriftTags* is a web app that helps users discover, review, and share events for thrift store locations — all visualized on an interactive, geocoded Google Map.
+**ThriftTags** is a web app that helps users discover, review, and share events for thrift store locations — all visualized on an interactive, geocoded Google Map.
 
 Whether you're hunting for vintage treasures or organizing a community swap meet, ThriftTags brings thrifting culture to your fingertips.
 
